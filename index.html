@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cookies Bucket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+        <header class="title">
+            <h1>Cookies Bucket</h1>
+        </header>
+
+        <div class="content">
+            <div class="create">
+                <div class="title">
+                    <h2>Form Cookie</h2>
+                </div>
+                <label for="FirstName" class="label">First Name: </label>
+                <input type="text" class="input" name="FirstName">
+                <label for="LastName" class="label">Last Name: </label>
+                <input type="text" class="input" name="LastName">
+                <label for="Address" class="label">Address: </label>
+                <input type="text" class="input" name="Address">
+                <label for="ExpDate" class="label">Expiry Date: </label>
+                <input type="date" class="input" name="ExpDate">
+
+                <button type="submit" class="create">
+                    Create
+                </button>
+            </div>
+
+            <div class="create random">
+                <div>
+                    <h2>Random Cookie</h2>
+                </div>
+                <label for="random" class="label">Name: </label>
+                <input type="text" class="input" name="random">
+                <label for="randomVal" class="label">Value: </label>
+                <input type="text" class="input" name="randomVal">
+                <label for="randomDate" class="label">Expiry Date: </label>
+                <input type="date" class="date" name="randomDate">
+                <button type="submit" class="createRandom">
+                    create
+                </button>
+            </div>
+
+            <div class="delete">
+                <div>
+                    <h2>Delete Cookie</h2>
+                </div>
+                <label for="delete" class="label">Name: </label>
+                <input type="text" class="input" name="delete">
+                <button type="submit" class="delete">
+                    Delete
+                </button>
+            </div>
+
+            <div class="show">
+                <div>
+                    <h2>Display Created Cookies</h2>
+                </div>
+                <Button class="display">Display</Button>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
